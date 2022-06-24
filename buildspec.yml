@@ -6,7 +6,8 @@ phases:
       java: corretto11
   build:
     commands:
-      - ./mvnw spring-boot:run
+      - mvn clean install
+      - ./mvnw package
   post_build:
     commands:
       - echo Build completed

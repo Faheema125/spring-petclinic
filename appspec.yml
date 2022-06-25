@@ -25,3 +25,5 @@ hooks:
     - location: stop_server.sh
       timeout: 20
       runas: ec2-user
+      
+      

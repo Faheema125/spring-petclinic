@@ -4,4 +4,4 @@ COPY target/spring-petclinic-2.7.0-SNAPSHOT.jar /opt/spring-petclinic-2.7.0-SNAP
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/opt/spring-petclinic-2.7.0-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/opt/spring-petclinic-2.7.0-SNAPSHOT.jar"]
